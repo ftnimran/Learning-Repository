@@ -1,17 +1,30 @@
 {
-  "name": "portfolio",
+  "homepage": "https://RavendraDotJava.github.io/Portfolio",
+  "name": "port",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@tsparticles/react": "^3.0.0",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "framer-motion": "^11.1.7",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "5.0.1",
+    "react-scroll-motion": "^0.3.3",
+    "react-top-loading-bar": "^2.3.1",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles": "^3.3.0",
+    "tsparticles-slim": "^2.12.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
