@@ -1,0 +1,4 @@
+
+// This file serves as a placeholder for the profile image.
+// In a production environment, the actual image (from the resume) 
+// would be uploaded and referenced in the Hero component.
