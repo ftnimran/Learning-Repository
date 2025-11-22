@@ -1,0 +1,63 @@
+.card.bg-light.text-white {
+    border: none;
+}
+
+
+#info {
+
+    background-color: #fffefe9c;
+
+
+
+}
+
+
+
+
+
+body {
+
+    background-image: url(https://img.freepik.com/free-vector/flat-geometric-background_23-2148957201.jpg?w=1380&t=st=1684350254~exp=1684350854~hmac=71b344649e1cbb149ae951ad09fd5eddb5dcfbc4b04292e6542137773fb3d2fd);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+
+
+    
+}
+
+
+.container-xl img {
+    width: 20rem;
+}
+
+.skillimg {
+    width: 5rem;
+    margin: 25px;
+    padding: auto;
+}
+
+#skillco {
+
+    padding: 1rem;
+    align-items: end;
+
+
+}
+
+@media (min-width: 390px) and (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skillcard {
+        margin: auto;
+    }
+}
+.navbar{
+    position: sticky;
+}
