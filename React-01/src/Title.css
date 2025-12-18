@@ -1,0 +1,11 @@
+.title{
+    height: 250px;
+    width: 250px;
+    border: 1px solid #0ef;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    display: inline-block;
+    background-color: #172e3b;
+    text-align: left;
+}
