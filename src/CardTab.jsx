@@ -8,6 +8,9 @@ const CardTab = () => {
             <Title name="Imran Ali" age={22} locat="Bihar" />
             <Title name="Naim Khan" age={21} locat="Bhopal" />
             <Title name="Ali Bhai" age={20} locat="Nagpur" />
+             <Title name="Imran Ali" age={22} locat="Bihar" />
+            <Title name="Naim Khan" age={21} locat="Bhopal" />
+            <Title name="Ali Bhai" age={20} locat="Nagpur" />
             
         </div>
     )
