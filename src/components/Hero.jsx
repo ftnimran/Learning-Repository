@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import './Hero.css'
 import Typed from "typed.js";
 import backGround from '../assets/image/background_image01.png'
 
