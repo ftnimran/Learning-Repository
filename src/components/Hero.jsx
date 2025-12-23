@@ -2,6 +2,8 @@ import React, { useEffect, useRef } from "react";
 import './Hero.css'
 import Typed from "typed.js";
 import backGround from '../assets/image/background_image01.png'
+import CustomButton01 from './mini-components/CustomButton01.jsx'
+import CustomButton02 from './mini-components/CustomButton02.jsx'
 
 const Hero = () => {
   const typedRef = useRef(null);
@@ -38,39 +40,13 @@ const Hero = () => {
         <p>
           I'm a passionate MERN Stack Developer with a strong focus on building modern, scalable, and user-friendly web applications. I love turning creative ideas into fully functional digital products using MongoDB, Express.js, React.js, and Node.js.
         </p>
-        <div className="home-sci">
-          <a
-            href="https://www.linkedin.com/in/imran-ali-214373241"
-            target="_blank"
-            style={{ "--i": 7 }}
-          >
-            <i className="bx bxl-linkedin"></i>
-          </a>
-          <a
-            href="https://github.com/ftnimran"
-            target="_blank"
-            style={{ "--i": 8 }}
-          >
-            <i className="bx bxl-github"></i>
-          </a>
-          <a
-            href="https://www.instagram.com/ftn_imran/"
-            target="_blank"
-            style={{ "--i": 9 }}
-          >
-            <i className="bx bxl-instagram"></i>
-          </a>
-          <a
-            href="https://wa.me/7783037329"
-            target="_blank"
-            style={{ "--i": 10 }}
-          >
-            <i className="bx bxl-whatsapp"></i>
-          </a>
+        <div>
+          <CustomButton01 text={<i className="bx bxl-linkedin"></i>} url="https://www.linkedin.com/in/imran-ali-214373241" nextwindows="_blank" index={7} />
+          <CustomButton01 text={<i className="bx bxl-github"></i>} url="https://github.com/ftnimran" nextwindows="_blank" index={8} />
+          <CustomButton01 text={<i className="bx bxl-instagram"></i>} url="https://www.instagram.com/ftn_imran/" nextwindows="_blank" index={9} />
+          <CustomButton01 text={<i className="bx bxl-whatsapp"></i>} url="https://wa.me/7783037329" nextwindows="_blank" index={10} />
         </div>
-        <a href="#" className="btn-box">
-          More About Me
-        </a>
+        <CustomButton02 text="More About Me" url="#" />
       </div>
       <div className="home-content">
         <img src={backGround} alt="Img" />
