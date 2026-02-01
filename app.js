@@ -1,12 +1,12 @@
+let uuserOne = {
+    userName: "abc",
+    email: "abc@gmail.com"
+}
 
-const id = "abc"
+let uuserTwo = uuserOne
 
-const anotherId01 = Symbol(id)
-
-
+uuserTwo.userName = "Ali"
 
 
-console.log(typeof id)
-console.log(anotherId01)
-console.log(typeof anotherId01)
-
+console.log(uuserOne)
+console.log(uuserTwo)
