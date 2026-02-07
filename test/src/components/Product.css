@@ -1,0 +1,18 @@
+.Product {
+  margin: 15px auto;
+  padding: 15px;
+  border: 1px solid #0ef;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+}
+
+.Product h1 {
+  padding: 10px;
+}
+
+.Product p {
+  padding: 8px;
+}
