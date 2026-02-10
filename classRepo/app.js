@@ -1,19 +1,6 @@
-console.log(null > 0);
-console.log(null >= 0);
-console.log(null < 0);
-console.log(null <= 0);
-console.log(null == 0);
-console.log(null === 0);
 
 
 
-console.log(undefined > 0);
-console.log(undefined >= 0);
-console.log(undefined <= 0);
-console.log(undefined == 0);
-console.log(undefined < 0);
-console.log(undefined === 0);
-
-console.log(2 == "2");
-console.log("2" == 2);
-console.log("2" === 2);
+const myName = new String("ali")
+console.log(myName.toUpperCase());
+console.log(typeof myName);
