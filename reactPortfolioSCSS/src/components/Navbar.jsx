@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import './Navbar.css'
 import logoIcon from '../assets/image/icon_01.png';
 import Resume from '../assets/pdf/imran.pdf';
 
